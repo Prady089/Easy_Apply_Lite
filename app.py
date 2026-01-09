@@ -220,4 +220,5 @@ with gr.Blocks(title="Job Application Assistant") as demo:
         )
 
 demo.queue()
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=10000)
+
